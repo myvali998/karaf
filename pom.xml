@@ -25,7 +25,7 @@
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
         <version>24</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <groupId>org.apache.karaf</groupId>
@@ -274,7 +274,7 @@
         <guava.version>20.0</guava.version>
         <narayana.version>5.12.0.Final</narayana.version>
         <hibernate.ejb.version>3.4.0.GA</hibernate.ejb.version>
-        <hibernate.version>5.4.32.Final</hibernate.version>
+        <hibernate.version>5.6.1.Final</hibernate.version>
         <hibernate.validator.version>7.0.1.Final</hibernate.validator.version>
         <httpclient.version>4.5.13</httpclient.version>
         <jansi.version>2.4.0</jansi.version>
@@ -350,7 +350,7 @@
 
         <!-- Further used maven plugin versions; e.g. in the docs -->
         <plugin.depends.version>1.4.0</plugin.depends.version>
-        <surefire.argLine />
+        <surefire.argLine/>
         <!-- General Settings -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <appendedResourcesDirectory>${basedir}/etc/appended-resources</appendedResourcesDirectory>
@@ -600,7 +600,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -614,7 +614,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -627,7 +627,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -640,7 +640,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
